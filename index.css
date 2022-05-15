@@ -1,0 +1,67 @@
+                                                                                                              :root {
+                                                                                                                 font-size: 16px;
+                                                                                                                 font-family: "Rubik", sans-serif;
+                                                                                                             }
+                                                                                                             
+                                                                                                             * {
+                                                                                                                 margin: 0;
+                                                                                                                 padding: 0;
+                                                                                                                 box-sizing: border-box;
+                                                                                                             }
+                                                                                                             
+                                                                                                             #header {
+                                                                                                                 width: 50vw;
+                                                                                                                 height: 100px;
+                                                                                                                 padding: 30px;
+                                                                                                                 display: flex;
+                                                                                                                 flex-direction: row;
+                                                                                                                 border: 100px;
+                                                                                                                 margin-left: 3px;
+                                                                                                                 justify-content: space-between;
+                                                                                                             }
+                                                                                                             
+                                                                                                             table {
+                                                                                                                 font-size: 1.25rem;
+                                                                                                                 border: none;
+                                                                                                                 border-collapse: collapse;
+                                                                                                                 border-spacing: 0;
+                                                                                                                 text-align: center;
+                                                                                                                 width: 100%;
+                                                                                                             }
+                                                                                                             
+                                                                                                             table th {
+                                                                                                                 font-size: 1.25rem;
+                                                                                                             }
+                                                                                                             
+                                                                                                             table tr th:first-child {
+                                                                                                                 border-top-left-radius: 10px;
+                                                                                                             }
+                                                                                                             
+                                                                                                             table tr th:last-child {
+                                                                                                                 border-top-right-radius: 10px;
+                                                                                                             }
+                                                                                                             
+                                                                                                             .rotate-msg {
+                                                                                                                 display: none;
+                                                                                                                 text-align: center;
+                                                                                                                 background-color: #dae5d0;
+                                                                                                                 color: #000;
+                                                                                                                 height: 100vh;
+                                                                                                                 align-items: center;
+                                                                                                                 justify-content: center;
+                                                                                                             }
+                                                                                                             
+                                                                                                             button {
+                                                                                                                 padding: 0.35rem 1rem;
+                                                                                                                 margin: 0.25rem;
+                                                                                                                 background-color: #d2dfe3;
+                                                                                                                 cursor: pointer;
+                                                                                                             }
+                                                                                                             
+                                                                                                             img {
+                                                                                                                 border: 1px solid #ddd;
+                                                                                                                 border-radius: 4px;
+                                                                                                                 width: 120px;
+                                                                                                                 height: 50px;
+                                                                                                                 float: right;
+                                                                                                             }
